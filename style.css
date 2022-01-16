@@ -5,5 +5,29 @@ html{
 body{
     margin:0;
     min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-color: rgb(39, 37, 37);
+   
 
+}
+.button-container{
+    border:2px solid black;
+    box-shadow:inset 0px 20px 4px -19px rgba(255,255,255,0.7);
+    padding:10px;
+    border-radius: 7px;
+
+}
+button{
+    cursor: pointer;
+    height:50px;
+    width:85px;
+    background: linear-gradient(to top,#696969,#575757);
+    font-size:15px;
+    font-weight:bold;
+    font-family:'Montserrat',sans-serif;
+}
+button:hover{
+    background: linear-gradient(to bottom,#696969,#575757);
 }
